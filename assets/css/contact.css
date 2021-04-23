@@ -90,7 +90,9 @@ html
 }
 #section6
 {
-    background:#6d4c41;
+    background:url('../img/footer.png');
+    background-size: cover;
+    background-position: center;
 }
 #section6 p
 {

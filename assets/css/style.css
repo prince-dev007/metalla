@@ -151,7 +151,17 @@ html
 }
 #section3 .card
 {
-    height:640px;
+    height:680px;
+}
+#section3 .card .details
+{
+    border: 0px solid #000;
+    height:290px;
+}
+#section3 .card .details2
+{
+    border: 0px solid #000;
+    height:263px;
 }
 #section3 .card ul li
 {
@@ -177,16 +187,29 @@ html
     padding:2px 10px;
     background:#3e2723;
     color: #fff;
+    font-weight: bold;
 }
 #section4 i
 {
     color: #e65100;
     font-size:3rem;
 }
+#section4 p
+{
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height:30px;
+}
 #section4 .back
 {
     background:#3e2723;
     color: #fff;
+}
+#section4 ul li
+{
+    font-weight: bolder;
+    margin:5px auto;
 }
 #section5 h1
 {
@@ -198,7 +221,9 @@ html
 }
 #section6
 {
-    background:#6d4c41;
+    background:url('../img/footer.png');
+    background-size: cover;
+    background-position: center;
 }
 #section6 p
 {
