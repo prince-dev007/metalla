@@ -256,4 +256,7 @@ html
     background-color: #000;
 }
 
-
+#section7 p
+{
+    font-size: 0.7rem;
+}
