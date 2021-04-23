@@ -54,6 +54,15 @@ html
 #section1 h1
 {
     font-size:3rem;
+    font-weight: bold;
+}
+#section1 h6
+{
+    font-weight: bold;
+}
+#section1  p
+{
+    font-weight: bold;
 }
 #section1 span
 {
@@ -134,4 +143,20 @@ html
 {
     font-size:0.7rem;
     margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    #section1
+    {
+        background: #eeeeee !important;
+        text-align: center;
+    }
+    #section1 img
+    {
+        display: none;
+    }
+    #section2
+    {
+        background:transparent;
+    }
+
 }

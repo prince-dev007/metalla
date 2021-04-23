@@ -260,3 +260,28 @@ html
     font-size:0.7rem;
     margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+    #section1
+    {
+        text-align: center;
+    }
+    #section2
+    {
+        text-align: center;
+    }
+    #section3 .card 
+    {
+        height:740px;
+        margin:5px auto;
+    }
+    #section3 .card .details
+    {
+        height:270px;
+        border: 0px solid #000;
+    }
+    #section4 h2
+    {
+        font-size:1.3rem;
+        font-weight: bold;
+    }
+  }

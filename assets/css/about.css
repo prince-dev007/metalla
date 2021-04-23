@@ -72,6 +72,10 @@ html
 {
     transform: translateY(20px);
 }
+#section4  .container 
+{
+    padding-top:120px;
+}
 #section4  span
 {
     border-bottom: 2px solid #e65100;
@@ -142,4 +146,16 @@ html
 {
     font-size:0.7rem;
     margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    #aboutSection1
+    {
+        background: #eeeeee !important;
+        text-align: center;
+    }
+    #section4 h2
+    {
+        font-size:1.3rem;
+        font-weight: bold;
+    }
 }

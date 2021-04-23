@@ -58,7 +58,7 @@ html
 }
 #section1 p
 {
-    font-weight: bolder;
+    font-weight: bold !important;
 }
 #section1 h1
 {
@@ -117,4 +117,14 @@ html
 {
     font-size:0.7rem;
     margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    #section1
+    {
+        background-position: center;
+    }
+    #section2 .card
+    {
+        margin: 10px auto;
+    }
 }
