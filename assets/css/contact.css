@@ -126,7 +126,12 @@ html
 }
 
 
+#section7
+{
+    background-color: #000;
+}
 #section7 p
 {
-    font-size: 0.7rem;
+    font-size:0.7rem;
+    margin-top: 10px;
 }
