@@ -47,11 +47,13 @@ html
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+   
 }
 
 #section1 .container
 {
     padding-top: 200px;
+    
 }
 #section1 img
 {
@@ -74,6 +76,7 @@ html
     color: #000;
     font-weight: bold;
     margin-top: 20px;
+    text-align: justify;
 }
 #section1 .btn
 {
@@ -106,6 +109,7 @@ html
     line-height:29px;
     color: #000;
     font-weight: bolder;
+    text-align: justify;
 }
 #section2 span
 {
@@ -167,6 +171,12 @@ html
 {
     color: #000;
     font-weight:bold;
+    text-align: justify;
+}
+
+#section4 .container
+{
+    padding-top: 50px;
 }
 #section4  span
 {
@@ -200,6 +210,7 @@ html
     font-weight: bold;
     margin-top: 20px;
     line-height:30px;
+    text-align: justify;
 }
 #section4 .back
 {
@@ -210,6 +221,7 @@ html
 {
     font-weight: bolder;
     margin:5px auto;
+    line-height: 30px;
 }
 #section5 h1
 {
@@ -278,6 +290,14 @@ html
     {
         height:270px;
         border: 0px solid #000;
+    }
+    #section4 .row .col-lg-6 
+    {
+        margin:10px auto;
+    }
+    #section4 img
+    {
+        display: none;
     }
     #section4 h2
     {

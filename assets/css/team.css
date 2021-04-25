@@ -59,6 +59,7 @@ html
 #section1 p
 {
     font-weight: bold !important;
+
 }
 #section1 h1
 {
@@ -69,13 +70,19 @@ html
 {
     padding-top: 100px;
 }
+#section2 .card
+{
+    height:600px;
+}
 #section2 .card h5
 {
     font-weight: bolder;
 }
 #section2 .card  p
 {
-    font-weight: bolder;
+    font-weight: bold;
+    text-align: justify;
+
 }
 #section6
 {
