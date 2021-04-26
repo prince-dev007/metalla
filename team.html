@@ -8,14 +8,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <link href="assets/css/bootstrap.css" rel="stylesheet">
-        <link href="assets/css/team.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-            crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-            integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-            crossorigin="anonymous" />
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
+        <link href="assets/css/team.css" rel="stylesheet">
+        <link href="assets/css/slick.css" rel="stylesheet">
+        <link href="assets/css/crousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     </head>
     
 <body>
@@ -51,8 +53,8 @@
         </div>
         <div class="container-fluid mb-5" id="section2">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
+                <div class="row responsive">
+                    <div class="col-lg-12">
                         <div class="card" >
                             <img src="assets/img/photo_2021-04-23 01.19.04.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -62,7 +64,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-12">
                             <div class="card">
                                 <img src="assets/img/photo_2021-04-23 01.21.13.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -71,7 +73,7 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-12">
                                 <div class="card" >
                                     <img src="assets/img/photo_2021-04-23 01.21.17.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -80,6 +82,15 @@
                                     </div>
                                   </div>
                                 </div>
+                                <div class="col-lg-12">
+                                    <div class="card" >
+                                        <img src="assets/img/photo_2021-04-26 13.49.26.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5> Mr. KEN LOMBERG </h5>
+                                          <p class="card-text">Geology & Resources - Thirty years of experience in the minerals industry – platinum & gold specialist. Expert at project management, mine geology, as well as mineral reserve & resource estimation for platinum, chrome, gold, copper, uranium, fluorite, diamond & coal mines.</p>
+                                        </div>
+                                      </div>
+                                    </div>
                     </div>
                 </div>
             </div>
@@ -122,7 +133,49 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/slick.js"> </script>
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true,
+                        arrows: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 2,
+                        arrows: false
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
 </body>
 </html>
